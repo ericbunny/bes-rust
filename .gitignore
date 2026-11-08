@@ -1,0 +1,21 @@
+# 构建产物（含 tools/frame_gen 等子 crate）
+target/
+docs/
+
+# 编辑器交换/备份文件
+**/*.rs.bk
+*.swp
+
+# 日志与临时文件
+*.log
+*.tmp
+
+# IDE / 编辑器配置
+.idea/
+.vscode/
+*.iml
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+AGENTS.md
